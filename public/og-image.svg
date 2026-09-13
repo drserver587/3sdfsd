@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#080808"/>
+  <circle cx="96" cy="315" r="36" fill="#c8f04d"/>
+  <text x="148" y="328" font-family="sans-serif" font-weight="700" font-size="40" fill="white">Rinayra</text>
+  <text x="96" y="420" font-family="sans-serif" font-weight="700" font-size="64" fill="white">We listen before</text>
+  <text x="96" y="500" font-family="sans-serif" font-weight="700" font-size="64" fill="white">we build.</text>
+  <text x="96" y="570" font-family="sans-serif" font-size="28" fill="#888">Custom software. No upfront cost.</text>
+  <rect x="900" y="240" width="220" height="60" rx="30" fill="#c8f04d"/>
+  <text x="1010" y="278" font-family="sans-serif" font-weight="700" font-size="22" fill="#080808" text-anchor="middle">rinayra.org</text>
+</svg>
