@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=Syne:wght@400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+@theme inline {
+  --color-background: #080808;
+  --color-foreground: #f0ede8;
+  --color-card: #111111;
+  --color-card-foreground: #f0ede8;
+  --color-primary: #c8f04d;
+  --color-primary-foreground: #080808;
+  --color-secondary: #1a1a1a;
+  --color-secondary-foreground: #f0ede8;
+  --color-muted: #1c1c1c;
+  --color-muted-foreground: #888888;
+  --color-accent: #c8f04d;
+  --color-accent-foreground: #080808;
+  --color-border: #222222;
+  --color-ring: #c8f04d;
+  --radius: 9999px;
+
+  --font-display: 'Syne', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #080808;
+  color: #f0ede8;
+  font-family: 'DM Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: #c8f04d;
+  color: #080808;
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #222 #080808;
+  scroll-behavior: smooth;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.marquee-track {
+  animation: marquee 22s linear infinite;
+  display: flex;
+  width: max-content;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-up {
+  animation: fadeUp 0.7s ease forwards;
+}
+
+@keyframes countUp {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

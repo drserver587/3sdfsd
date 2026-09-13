@@ -1,0 +1,10 @@
+{
+  "description": "Connect with Rinayra Solutions to identify workflow gaps and receive tailored solutions that enhance efficiency and build lasting client relationships.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
