@@ -634,16 +634,16 @@ function Contact() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <label className="block text-xs text-[#444] mb-2 uppercase tracking-widest">Your name</label>
-                <input name="name" value={form.name} onChange={handleChange} required placeholder="Arjun Mehra" className={inputClass} />
+                <input name="name" value={form.name} onChange={handleChange} required placeholder="Jane Smith" className={inputClass} />
               </div>
               <div>
                 <label className="block text-xs text-[#444] mb-2 uppercase tracking-widest">Business</label>
-                <input name="business" value={form.business} onChange={handleChange} placeholder="Mehra Textiles" className={inputClass} />
+                <input name="business" value={form.business} onChange={handleChange} placeholder="Acme Supply Co." className={inputClass} />
               </div>
             </div>
             <div>
               <label className="block text-xs text-[#444] mb-2 uppercase tracking-widest">Email</label>
-              <input type="email" name="email" value={form.email} onChange={handleChange} required placeholder="arjun@mehratextiles.com" className={inputClass} />
+              <input type="email" name="email" value={form.email} onChange={handleChange} required placeholder="jane@acmesupply.com" className={inputClass} />
             </div>
             <div>
               <label className="block text-xs text-[#444] mb-2 uppercase tracking-widest">Tell us about your workflow or challenge</label>

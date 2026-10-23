@@ -1,7 +1,8 @@
 {
-  "description": "Connect with Rinayra Solutions to identify workflow gaps and receive tailored solutions that enhance efficiency and build lasting client relationships.",
+  "title": "Rinayra | Custom Workflow Automation for Small Businesses",
+  "description": "Custom workflow automation and websites for U.S. small businesses. Flat monthly fee. Free to start, and you pay only if it helps.",
   "robots": {
-    "index": false
+    "index": true
   },
   "accessibility": {
     "addBypassLinks": false,
