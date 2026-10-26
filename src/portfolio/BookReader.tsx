@@ -176,14 +176,15 @@ export default function BookReader({ story, closeTo }: { story: Story; closeTo: 
   }
 
   return (
-    <div className="fixed inset-0 z-[70] flex items-center justify-center bg-[#080808]/80 px-3 py-4 backdrop-blur-sm sm:px-8" onClick={close}>
+    <div className="fixed inset-0 z-[70] flex items-center justify-center px-3 py-4 sm:px-8">
+      <div className="absolute inset-0 bg-[#080808]/80 backdrop-blur-sm" onClick={close} />
       <div
         ref={dialogRef}
         role="dialog"
         aria-modal="true"
         aria-labelledby={titleId}
         data-lenis-prevent
-        className="relative flex w-full max-w-5xl flex-col items-center"
+        className="relative z-10 flex w-full max-w-5xl flex-col items-center"
         onClick={(event) => event.stopPropagation()}
         onPointerDown={onPointerDown}
         onPointerUp={onPointerUp}
